@@ -1,0 +1,16 @@
+{
+  "name": "matbcvo/mautic-migrate-webroot",
+  "type": "composer-plugin",
+  "require": {
+    "php": ">=8.2",
+    "composer-plugin-api": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mautic\\Composer\\Plugin\\MigrateWebroot\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Mautic\\Composer\\Plugin\\MigrateWebroot\\Plugin"
+  }
+}
