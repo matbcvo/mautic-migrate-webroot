@@ -5,6 +5,10 @@
     "php": ">=8.2",
     "composer-plugin-api": "^2.0"
   },
+  "require-dev": {
+    "composer/composer": "^2.8",
+    "friendsofphp/php-cs-fixer": "^3.87"
+  },
   "autoload": {
     "psr-4": {
       "Mautic\\Composer\\Plugin\\MigrateWebroot\\": "src/"
